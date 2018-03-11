@@ -37,25 +37,25 @@ public class MainActivity extends AppCompatActivity {
     String downloadUrl = "http://192.168.0.190/download";
 
     String crt = "-----BEGIN CERTIFICATE-----\n" +
-            "MIIDhzCCAm+gAwIBAgIJAKbpUP9RA1ahMA0GCSqGSIb3DQEBCwUAMFkxCzAJBgNV\n" +
+            "MIIDfzCCAmegAwIBAgIJAMoHuF8eDt0SMA0GCSqGSIb3DQEBCwUAMFUxCzAJBgNV\n" +
             "BAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBX\n" +
-            "aWRnaXRzIFB0eSBMdGQxEjAQBgNVBAMMCWZsYXNrdGVzdDAgFw0xODAzMTAwODE0\n" +
-            "MjNaGA8yMTE4MDIxNDA4MTQyM1owWTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNv\n" +
-            "bWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDESMBAG\n" +
-            "A1UEAwwJZmxhc2t0ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA\n" +
-            "7rHjhpVnIRhf7AVHP7xvdr49cgnRJGw5t8loqPlKdGXGu4hTaIjzhQ7Y1h1m3L81\n" +
-            "iOEXPLfkjaSVk4zYEonYtqFNpwWofM/eXyBvGlo9febY2pZJFuLUmz+6A1zSbocs\n" +
-            "PJO0eiV7qVSGmUzfsD63q7VDLdJVUdvclAHAtql1GJIpKYZ2DWHC29/UGM2cTzkG\n" +
-            "ATH9DUKEe3xR+J4YvdBmrgCLPNWlmd/50EEo14E5P5LXqaLAWHbAXrRzA6TCY6qn\n" +
-            "E4lIP4s8HB5J89ujUgdxjRc97fUPHNV6BUxZPFf291UVuKz2l8pAFjLXTcJK0Xg5\n" +
-            "uNpWfGBhHs7lAXgLBEfXswIDAQABo1AwTjAdBgNVHQ4EFgQU1Z1djsbu5GTpiYW0\n" +
-            "z4ipZCQXPGgwHwYDVR0jBBgwFoAU1Z1djsbu5GTpiYW0z4ipZCQXPGgwDAYDVR0T\n" +
-            "BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAg+G2AsrtO/ANqkYt4bQudeysf6kZ\n" +
-            "v4Z32AF0dOIu3fnRVxFyBND7Mifre9+XMjVh/eQABbd6nglfwvFz/N+kKSVS6BLP\n" +
-            "oXtvmOep9YW4BwCJLWTwN8HL78HdmdE3Zt5QivUCugqEoREM7hUZ7a+Co7blbhIy\n" +
-            "JO2pWHwEbQT+Tfr7f7VFUvK3Nt/OhabuBovdsvxLcnHup4arNTJAHMBkV9vthYFe\n" +
-            "TRtuJ/goYXRa/xGPpK1eReXOAuGATwnPaggiq6A3rqmSbhKI32Nx176xkxlxTlSV\n" +
-            "1Xycya8cBMQkbs27qKmHZMsPVnL0xv/DgU60c+osxC0RNgrj5Z7Q9JHTtA==\n" +
+            "aWRnaXRzIFB0eSBMdGQxDjAMBgNVBAMMBWhlbGxvMCAXDTE4MDMxMTAzNTYxNFoY\n" +
+            "DzIxMTgwMjE1MDM1NjE0WjBVMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1T\n" +
+            "dGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMQ4wDAYDVQQD\n" +
+            "DAVoZWxsbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPXJQ//kk5Bd\n" +
+            "w/jHmEay+GZ3Bb1gCoC3Bh4m/oAFcbdYhayyFdz2iUoilnjBavINKfG6wbF91XWN\n" +
+            "NE+bUe07Ea+MmByqM2ydNcoB9LIW/r/4CXlLLTesOuaaNaztsPk62Z2CZV+79g0S\n" +
+            "QOUxNL61AoKl39O9HbBDci23tPaOrI6pJpXw8ZZgWlAbS+doTfFcJp7+X44CXqwi\n" +
+            "5I0krtfhDRWiOOtNpRKSx2NwO4FitYGSHLzM0nhKDzB/2e6Y4w7gdXliXxKEktCP\n" +
+            "NzVVxWC7q0tFtq2y9nr4V/qbQpBV/O2JlaaBB73uP5WuiDPsOHE6NDuAR8r8GQ+A\n" +
+            "YJTlia7+pucCAwEAAaNQME4wHQYDVR0OBBYEFNcydXd/HQMKXOK+ejyA7kCBNXJa\n" +
+            "MB8GA1UdIwQYMBaAFNcydXd/HQMKXOK+ejyA7kCBNXJaMAwGA1UdEwQFMAMBAf8w\n" +
+            "DQYJKoZIhvcNAQELBQADggEBAIVHa+VjR0bSHGgt1ZSbemT+mIXtc8aMWd6AfJc4\n" +
+            "we4yXG/PJth2Ckz/diT2k60xeM11FAlHFz4OXDBVG2Fir5nR3HqG+rwwTm5iDRPn\n" +
+            "DcjgyABnl3BuvOxPJ74dqd4mn+6b3mzrJTLVI48+35BP2iZVEZsrp2M7x5tPrEnx\n" +
+            "Zln2/rDIFphIUd2XFkfU0rMxDGRGQxRsQ05Ewo4h71WfuUbrMq2aZc9VfSPfL2lR\n" +
+            "4RhiXKI4d3VvIoErvsLsjL9jWO5+662OqlTNp49elDSPQjdb9aNjg/xKAzp7Qy1A\n" +
+            "0Fu5spPxo284I3V75KlqFBMcWk0OLpiHfdtxbeyHsL14TWs=\n" +
             "-----END CERTIFICATE-----\n";
 
 
@@ -65,14 +65,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-  //      getHttp();
+        getHttp();
         getHttps();
 
-//        postHttp();
- //       postHttps();
+        postHttp();
+        postHttps();
 
-//        uploadFile();
-//        downloadFile();
+        uploadFile();
+        downloadFile();
 
     }
 
@@ -187,6 +187,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         try {
+            NetClient.getInstance().initHttpsClient(crt);
             NetClient.getInstance().postHttpsRequest(httpsUrl, jsonObject, new NetClient.NetCallBack() {
                 @Override
                 public void onFail(Exception e) {
@@ -223,7 +224,6 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onProcess(float process) {
-                    Log.d("netSdk", "uploadFile:onProcess" + process);
                 }
 
                 @Override
@@ -250,7 +250,6 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onProcess(float process) {
-                    Log.d("netSdk", "downloadFile:onProcess" + process);
                 }
 
                 @Override

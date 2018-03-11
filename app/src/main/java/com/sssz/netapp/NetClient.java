@@ -67,10 +67,6 @@ public class NetClient {
                     // SSLSocketFactory,  X509TrustManager
                     .sslSocketFactory(certUtils.getSSLSocketFactory(), certUtils.getTrustManager())
                     .build();
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (KeyStoreException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }

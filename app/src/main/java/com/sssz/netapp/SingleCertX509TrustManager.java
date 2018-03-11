@@ -27,6 +27,17 @@ public class SingleCertX509TrustManager implements X509TrustManager {
         }
         this.standardTrustManager = (X509TrustManager) trustManager;
     }
+    public SingleCertX509TrustManager(KeyStore keyStore) throws Exception {
+        super();
+        TrustManagerFactory trustManagerFactory =
+                TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+        trustManagerFactory.init(keyStore);
+        if (trustManagerFactory.getTrustManagers().length == 0)
+        {
+            throw new NoSuchAlgorithmException("no trust manager found");
+        }
+        this.standardTrustManager = (X509TrustManager) trustManagerFactory.getTrustManagers()[0];
+    }
 
     @Override
     public void checkClientTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {

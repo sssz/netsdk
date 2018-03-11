@@ -74,13 +74,13 @@ public class CertUtils {
         return sslContext;
     }
     private SingleCertX509TrustManager createTrustManager() throws Exception {
+        //return new SingleCertX509TrustManager(keyStore);
         return new SingleCertX509TrustManager(x509TrustManager);
     }
     private HostnameVerifier createHostnameVerifier(){
         return new HostnameVerifier() {
             @Override
             public boolean verify(String s, SSLSession sslSession) {
-                Log.d("netSdk", "verify: " + s);
                 return true;
             }
         };
