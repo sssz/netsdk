@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NetApp.iml" filepath="$PROJECT_DIR$/NetApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netsdk/netsdk.iml" filepath="$PROJECT_DIR$/netsdk/netsdk.iml" />
     </modules>
   </component>
 </project>

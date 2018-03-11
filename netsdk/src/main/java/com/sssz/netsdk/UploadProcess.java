@@ -1,4 +1,4 @@
-package com.sssz.netapp;
+package com.sssz.netsdk;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.sssz.netapp;
+package com.sssz.netsdk;
 
 import android.util.Log;
 

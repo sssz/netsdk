@@ -1,6 +1,4 @@
-package com.sssz.netapp;
-
-import android.util.Log;
+package com.sssz.netsdk;
 
 import java.io.IOException;
 import java.io.InputStream;

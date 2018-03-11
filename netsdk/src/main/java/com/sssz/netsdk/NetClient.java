@@ -1,7 +1,5 @@
-package com.sssz.netapp;
+package com.sssz.netsdk;
 
-
-import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
 
@@ -12,14 +10,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.KeyStore;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
 import java.util.Iterator;
-
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
 
 import okhttp3.Call;
 import okhttp3.Callback;
