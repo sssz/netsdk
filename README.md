@@ -1,6 +1,6 @@
 # netsdk
 
-Netsdk is a sdk for Android network which combines okhttp and fastjson
+Netsdk is a sdk for Android app's network behaviour which combines okhttp and fastjson
 
 netsdk's code  is in ./netsdk
 
